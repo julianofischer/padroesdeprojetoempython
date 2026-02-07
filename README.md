@@ -4,45 +4,45 @@ Um repositório sobre padrões de projeto (Design Patterns) implementados em Pyt
 
 ## 📚 Conteúdo
 
-### 1 - Singleton
-- **Singleton Pattern** - `singleton/`
+### 1-Singleton
+- **Singleton Pattern** - `1-Singleton/`
   - Garantir uma única instância de uma classe
   - Variações de implementação incluindo thread-safety
 
-### 2 - Injeção de Dependências, Lazy Loading e Proxy
+### 2-di-lazy-loading-proxy
 
-- **Dependency Injection (DI)** - `aula2/di/`
+- **Dependency Injection (DI)** - `2-di-lazy-loading-proxy/di/`
   - Exemplos de injeção de dependência para desacoplamento de código
   
-- **Lazy Loading** - `aula2/lazy_loading/`
+- **Lazy Loading** - `2-di-lazy-loading-proxy/lazy_loading/`
   - Carregamento tardio de recursos para otimização de performance
   
-- **Proxy** - `aula2/proxy/`
+- **Proxy** - `2-di-lazy-loading-proxy/proxy/`
   - Padrão proxy para controle de acesso e operações adicionais
 
-### 3 - Factory Method, Simple Factory e Registry
+### 3-factory-method-simple-factory-registry
 
-- **Factory Method** - `aula3/factory*_*.py`
+- **Factory Method** - `3-factory-method-simple-factory-registry/factory*.py`
   - Criação de objetos sem especificar suas classes concretas
   
-- **Simple Factory** - `aula3/exercicio_simple_factory.py`
+- **Simple Factory** - `3-factory-method-simple-factory-registry/exercicio_simple_factory.py`
   - Padrão simples para criação de instâncias
   
-- **Registry Pattern** - `aula3/exercicio_registry.py`
+- **Registry Pattern** - `3-factory-method-simple-factory-registry/exercicio_registry.py`
   - Registro centralizado de tipos para criação dinâmica
 
-### 4 - Decoradores
+### 4-decoradores
 
-- **Decoradores** - `aula4_decoradores/`
+- **Decoradores** - `4-decoradores/`
   - Decoradores Python para estender funcionalidade
   - Exercícios incluem cache, timer e type checker
 
-### 5 - Strategy e Template Method
+### 5-strategy-template-method
 
-- **Strategy** - `aula5/strategy*_*.py`
+- **Strategy** - `5-strategy-template-method/strategy*.py`
   - Encapsulamento de algoritmos intercambiáveis
   
-- **Template Method** - `aula5/template_method*_*.py`
+- **Template Method** - `5-strategy-template-method/template_method*.py`
   - Definição do esqueleto de um algoritmo
   
 - **Exemplos adicionais** - Validador, Formatador de Data, Cálculo de Frete
@@ -71,7 +71,9 @@ pip install -r requirements.txt
 
 4. Execute os exemplos:
 ```bash
-python aula2/di/di_1.py
-python aula3/factory1_1.py
-# ... etc
+python 1-Singleton/singleton1_1.py
+python 2-di-lazy-loading-proxy/di/di_1.py
+python 3-factory-method-simple-factory-registry/factory1_1.py
+python 4-decoradores/decorators1_1.py
+python 5-strategy-template-method/strategy1_1.py
 ```
